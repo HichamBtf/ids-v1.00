@@ -1,0 +1,17 @@
+show log before program launch:
+-tail -f -n 0 /var/log/syslog
+
+program:
+-gcc -Wall main.c populate.c rules_func.c -o ids -lpcap
+
+start program:
+-./ids eth0 ids.rules &
+
+github https link:
+-https://github.com/Hirozion/Projet_Dev1.git
+
+github CLI:
+-gh repo clone Hirozion/Projet_Dev1
+
+
+
